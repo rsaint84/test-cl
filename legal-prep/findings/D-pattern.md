@@ -210,3 +210,42 @@ Pattern (two lines): Even in a system with a named fairness duty, a short deadli
 7. FordHarrison PDF is dated 2014 (file metadata); its practice description may be dated.
 8. Peer "severance per prior agreement" rows (Lowe, Nargolwala) do not show dollar totals; the underlying agreements were not pulled.
 9. The 2007 8-K description of the standard form (6 months, 18-month window, 25% CIC vesting) is from automated extraction; the 2026 proxy's description of the legacy form (raw text checked) is consistent with it.
+
+---
+
+## Cross-review by D (The Pattern)
+
+Read A-document.md, B-law.md and C-people.md in full on 2026-10-07. Facts only. No advice.
+
+### AGREE
+
+| # | Point | Who | What my sources add |
+|---|---|---|---|
+| 1 | Two families of agreement: legacy 2014 form (still issued to V. Balakrishnan and Saint-Pierre on Jan 28, 2025) and go-forward form from July 2025. | A §1, §3; C §2c | 2026 proxy uses the same "Legacy EOBAs" / "Go-Forward EOBAs" labels. No filing shows a sitting POWI legacy holder signing a go-forward form; the only legacy holder whose terms were cut is Balakrishnan, and the consideration was continued vesting through transition employment and unpaid consulting (10-K FY2025 ASC 718 note; Transition Agreement §3). |
+| 2 | Legacy second trigger: termination without Cause or Good Reason within 18 months after the person who was CEO at signing ceases to be CEO; Balakrishnan ceased July 21, 2025. | A §2A, §5 item 3 | 2026 proxy table labels the legacy protection period "18 months post CEO termination." Among peers, only POWI's form has this prong; Semtech instead gave COO Silberstein a time-limited retention agreement at the 2023 CEO change (protection to Dec 8, 2024), and Wolfspeed's SLT plan uses a plain 24-month post-CIC window. |
+| 3 | "50% target bonus" (my §1.1, 2007 row) and A's "50% of bonus at maximum" are both right for different versions. 2007 and 2010 forms say target; the May 1, 2014 A&R introduced "maximum achievable Performance Level" (A §2A row 12). Roeschlein's 2010 payout was "50% of his target bonus" (8-K May 27, 2010), consistent with the pre-2014 wording. | A §2A rows 2, 5, 12 | My 2007 row stands as written; the §1.2 Bailey row correctly uses the 2014 "maximum" measure. |
+| 4 | Bailey's $862,450 reconciles to the legacy form. Cash $586,850 = 6 months of $375,000 ($187,500) + 50% of 2025 annual PSUs at maximum (3,800 units) + prorated maximum PSUs (180/365 x 7,600 = 3,748 units); 7,548 units x roughly $52.9 = $399,350; total $586,850. Bailey's 2025 PSU grant was 3,800 target / 7,600 maximum (2026 proxy Grants table). Plus prorated PRSUs ($249,873 target value) and 6 months medical/dental ($25,728). No RSU acceleration, which matches a non-CIC termination. | A §2A row 12; C §4 | Implied share price (~$53) is close to POWI's late-June 2025 trading range; I did not pull the exact closing price. |
+| 5 | Every legacy officer except Jain has left since Lloyd arrived (Nayyar, Barsan, Walker, Gupta; Bailey one month before). | C §1d, §4 | Same sequence at peers after a CEO change: Wolfspeed (Lowe out Nov 2024; CFO Reynolds out May 2025; new CEO, COO, CFO hired 2025); Semtech (Maheswaran retired June 2023; CFO Chukwu replaced Oct 2023; COO given retention agreement; successor CEO Pickle terminated June 2024); Allegro (Vig retired June 2022; SVP Ops Teebagy retired June 2023; CEO Nargolwala out Feb 2025); Navitas (Sheridan out Aug 2025; CFO Glickman leaving Mar 2026). Sources in §2 above. Research (Tayan/Gow/Larcker) notes "retire" language often masks forced exits. |
+| 6 | Walker's March 2026 exit: Q1 2026 10-Q Note 4 records "cash severance charges of $0.4 million related to the departure of an executive officer" and "$1.8 million ... acceleration of equity awards in accordance with the terms of the executive's severance agreement." Raw text checked. | C §4 and Doubts | Legacy non-CIC severance has no RSU acceleration; the proxy's Dec 31, 2025 table shows RSU acceleration for Walker only in the CIC-termination column ($1,020,887 at $35.54, i.e. 28,725 RSUs; at the March 2026 price of roughly $60-70 that is about $1.7-2.0M). The $1.8M charge is therefore consistent with a Termination Upon Change of Control under the CEO-departure prong, but no filing says so. See DISAGREE 2. |
+| 7 | Balow 8-K "one year" vs proxy "6 months / .5x" for other executives: unresolved in the public record. | A §5 item 15 | Same doubt in my §Doubts 1. |
+
+### DISAGREE
+
+| # | Point | Who | My reading and source |
+|---|---|---|---|
+| 1 | "No severance disclosed" for Bailey and Barsan. | C §4 (Bailey, Barsan rows) | The 2026 proxy footnotes 13 and 14 disclose Bailey's $862,450 separation package under a June 30, 2025 separation agreement and Barsan's retirement benefits ($551,420 target value plus $10,000). C's "forfeited PRSUs" figures and these payouts coexist. |
+| 2 | Whether any executive has invoked the CEO-departure trigger. A (Doubts 8) and C treat it as unobserved. | A, C | Not stated by the company, but the Q1 2026 10-Q equity-acceleration charge for the departing executive officer (Walker) is the one data point that fits the CEO-departure prong; it does not fit the non-CIC legacy terms. I mark this as inference, not fact. No anecdote or peer filing shows an executive invoking such a prong. |
+| 3 | Only Gupta received the Aug 1, 2022 "deemed Senior Executive" letter. | My §1.2 | A's inventory item 16 shows Yee received an identical letter (Ex. 10.2, same 10-Q). My table is incomplete on that point. |
+| 4 | Balakrishnan severance give-up listed under "Observed practice" as "the outgoing CEO was asked to surrender his contractual severance." | C §4 | The filings show he gave up cash severance, COBRA, retirement and death/disability benefits in exchange for continued vesting worth $14-17M in accounting expense; whether he was "asked" is not in the record. Wolfspeed's Lowe is the documented case of a board request ("at the request of the Board, agreed to forgo" 1.5x target bonus). |
+
+### MISSING
+
+| # | Gap | Where it should sit | What I found or did not find |
+|---|---|---|---|
+| 1 | Peer precedent for replacing sitting officers' legacy agreements with less generous forms, including consideration, timing and refusals. | My §2 | Not found. The closest cases are expiries and renewals, not cut-downs: Silicon Labs renewed on "substantially similar" terms (July 2024); ADI replaced the expired Maxim CIC plan with its own form (Oct 2023); Semtech extended its CIC plan to 2029 (June 2024). No 8-K at any of the ten peers discloses an officer declining a replacement agreement. At POWI the proxy says go-forward terms apply to executives "hired after Dr. Lloyd"; it is silent on legacy holders. |
+| 2 | Any executive, at POWI or a peer, invoking a CEO-departure trigger. | My §2, §4 | Only the Walker inference above. Among anecdotes, none mention a CEO-change prong. |
+| 3 | Yee's 2022 Senior Executive letter. | My §1.2 | A inventory item 16: https://www.sec.gov/Archives/edgar/data/833640/000083364022000118/powi-20220630xex10d2.htm (not opened by me). |
+| 4 | Walker's severance figures. | My §1.2 Walker row | Q1 2026 10-Q Note 4 ($0.4M cash; $1.8M equity acceleration), executive unnamed: https://www.sec.gov/Archives/edgar/data/833640/000083364026000078/powi-20260331x10q.htm |
+| 5 | Legacy-form arbitration cost clause ("all costs ... paid by the Company," AAA Commercial Rules, San Jose) and its removal from go-forward forms. | My §1.1 | A §5 item 1 and B §4 cover it; I did not. |
+| 6 | Ademmer's 2013 EOBA and 2014 A&R (with "[Reserved]" sections). | My §1.2 Ademmer row says "not found" | A inventory items 10 and 12 locate them; my full-text search missed them. Correction: Ademmer did hold an EOBA (Nov 4, 2013; A&R May 1, 2014). |
+| 7 | 2013 A&R round (June 2013 CEO; Apr-May 2013 officers) and the Dec 2008 409A policy. | My §1.1 | A §3 change log has both. |

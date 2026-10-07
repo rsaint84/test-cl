@@ -236,3 +236,49 @@ Each item is an observation drawn from the documents cited. No advice is given.
 6. My reading of section numbers in the Lloyd and Erba forms relies on text extracted from inline XBRL HTML; the "1.", "2." page markers in the extracted text were distinguished from section numbers by context. Any single section citation should be checked against the HTML before relying on it.
 7. The 2026 proxy summary table says legacy severance is "12 months highest base salary ... 1x annual incentive at maximum" for senior executives on a CoC termination. The agreement text actually provides 6 months lump sum plus "up to" 6 further months paid monthly only "until Executive secures new employment" (Sec. 3(a)(iv)(2)). The proxy's shorthand omits the mitigation condition.
 8. Whether the legacy 18-month window tied to Balakrishnan's departure as CEO (July 21, 2025) is treated by the company as running (to about January 21, 2027) for legacy holders is implied by the proxy's "18 months post CEO termination" wording but is not stated expressly for any named executive.
+
+---
+
+## Cross-review by A (The Document)
+
+Read B-law.md, C-people.md and D-pattern.md in full on 2026-10-07. "Legacy" = 2014 form as amended (Saint-Pierre/V. Balakrishnan Jan 28, 2025 copies are identical). "Go-forward" = Lloyd (Jul 2025) and Erba (Nov 2025) forms. Section cites are to Exhibit A of each agreement.
+
+### AGREE (confirmed by the filed text)
+
+| File | Claim | Confirming document and section |
+|---|---|---|
+| B (context line) | AAA arbitration in San Jose, company pays costs; release within 60 days; non-compete tied only to retirement benefits; California law | Legacy Secs. 11, 12, 14, 5(a)(ii), 21(g). Go-forward forms have NO arbitration clause (Lloyd offer letter has JAMS; Erba offer letter has none) |
+| B §2 (409A safe harbor: notice 90 days, 30-day cure) | Go-forward Good Reason uses 90-day notice | Lloyd/Erba Sec. 19(f). Cure period in all POWI forms is 20 days, not 30 (legacy Sec. 21(i); go-forward Sec. 19(f)); legacy notice window is one year |
+| C §1b, D §1.2 | Lloyd terms: 12 mo / 100% non-CoC; 24 mo / 200% CoC; 3-before/12-after window; 50-mile relocation; 30-day Cause cure | Lloyd Secs. 3(a), 2(a)(iv), 19(k), 19(f)(iii), 19(b) |
+| C §3a, D §1.2 | Erba: 1 yr / 100% both cases; prorated PRSUs at target on CoC termination; lesser-of-target-or-actual prorated bonus non-CoC; 30-minute commute test; retirement = prorated bonus cash only; death/disability time-based acceleration + continued PRSU vesting | Erba Secs. 2(b), 2(c)(ii), 3(a), 19(f)(iii), 4(b), 5(b) |
+| C §3a | Erba start date Jan 5, 2026, not Nov 14, 2025 | Offer letter Ex. 10.85 "START DATE: January 5, 2026"; EOBA signed Nov 13/14, 2025 |
+| C §2c, D §1.1 | Jan 28, 2025 amendment adds prorated annual-bonus PSUs on retirement/death/disability; Jun 1, 2020 amendment only redefines "Stock Award" | Amendment Sec. 1 adding to legacy Sec. 5(b)(ii); 2020 amendment Sec. 1 (Sec. 21(u) / CEO 21(r)) |
+| D §1.1 (2007 row) | 2007 EO form paid 6 months highest salary + 50% of **target** bonus | Confirmed. 2007 Bell form Sec. 4(a)(iii): "50% of the Executive's targeted annual incentive bonus"; same in Nayyar Jul 2010. The "maximum achievable Performance Level" measurement first appears in the May 1, 2014 A&R (Sec. 21(b)); 2013 A&R used "target annual incentive bonus (whether cash or Bonus Stock Unit Awards)". D is right for 2007; my 2A table already shows target for 2007/2010/2013 and maximum from 2014 |
+| D §1.2 (Gupta, Nayyar, Sutherland) | Aug 2022 "deemed Senior Executive"; Oct 2010 partial waiver keeping Secs. 5-7 behind one-year wait | Ex. 10.1 (Aug 4, 2022 10-Q); Ex. 10.57 (FY2010 10-K) |
+| D §1.1, C §2c | Legacy 18-month trigger runs from CoC or from the CEO's departure | Legacy Sec. 21(w), quoted under MISSING |
+| D §1.2 (Balakrishnan) | Struck sections, Cause clause (v), 3-month post-termination CoC limit, Sec. 6 struck at Anticipated Separation Date | Transition Agreement Sec. 3.b |
+
+### DISAGREE (conflict with filed text; primary source named)
+
+| File | Claim | What the filed text says | Primary |
+|---|---|---|---|
+| D §1.2 | "Wolfgang Ademmer: not found in any Power Integrations SEC filing" | Ademmer EOBA dated Nov 4, 2013 is Ex. 10.35 to FY2013 10-K (https://www.sec.gov/Archives/edgar/data/833640/000083364014000073/powi-ex1035_20131231x10k.htm); A&R May 1, 2014 is Ex. 10.9 to the 10-Q filed May 5, 2014 | Exhibits |
+| D §1.1, §Doubts 1; C §3e | Balow non-CoC = "one year base salary" vs 2026 proxy "6 months / .5x" for other executives | Raw 8-K text (re-read): "(1) a cash payment equal to one year of his annual base salary then in effect ... (3) ... 100% of the value of his then outstanding annual performance award of PSUs at ... target". Proxy footnote (3) says 6 months / 0.5x. Both are company documents; the proxy was filed Apr 21, 2026, the Balow agreement is dated Apr 22, 2026. The agreement itself is unfiled (not in Q2 2026 10-Q). | For Balow: the 8-K. For the template: the proxy. Neither is the agreement |
+| C §4, §Doubts | Q1 2026 "$0.4M cash + $1.8M acceleration ... executive's severance agreement" attributed to Walker and asked which form it matches | 10-Q wording (re-read): cash severance $0.4M "related to the departure of an executive officer"; $1.8M stock comp "due to the acceleration of equity awards in accordance with the terms of the executive's severance agreement." Legacy Sec. 4(a) for a Senior Executive = 6 months Highest Annual Salary + 50% bonus at maximum; proxy's hypothetical non-CoC severance for Walker at 12/31/2025 was $423,206, which matches $0.4M. But legacy Sec. 4(b)/5(b) give only prorated PRSUs/PSUs (proxy hypothetical $237,052 at $35.54/share). $1.8M of acceleration is not explained by the legacy form at any plausible share price; the 10-Q says "severance agreement", a document that is not filed. C's attribution to Walker is plausible but unproven; the $1.8M does not match the legacy form. | 10-Q (amount); the unfiled separation agreement (terms) |
+| D §1.1 (2007 row) | "Good Reason includes material pay cut and relocation >50 miles" (unqualified) | 2007-2025 legacy Good Reason (i) is a pay/bonus/benefit decrease "following a Change of Control"; only the go-forward form applies the pay-cut prong at any time (Sec. 19(f)(i)) | Agreement text |
+| D §1.1 | "an earlier A&R dated May 8, 2013 restated the 2007 form" | A&R dates I found: Bell Apr 22, 2013 (Ex. 10.7); Nayyar May 13, 2013 (Ex. 10.2); CEO Jun 3, 2013 (Ex. 10.1). May 8 may be another officer's copy (Ex. 10.5 not opened). Minor | Exhibits |
+| C §2c | Jan 28, 2025 amendments "signed by Balakrishnan for the Company" | True for the officers' amendments; Balakrishnan's own was signed by Nayyar (CFO) for the Company | Ex. 10.1 |
+
+### MISSING (document facts the other files needed)
+
+| Needed by | Item | Answer from the documents |
+|---|---|---|
+| B, C, D | Exact legacy CEO-departure trigger wording | Legacy Sec. 21(w): "'Termination Upon Change of Control' means Executive's Separation from Service that results from: (i) Any termination of the employment of the Executive by the Company without Cause on or within eighteen (18) months after (i) the occurrence of a Change of Control; or (ii) the date that the person serving as of the Effective Date as Chief Executive Officer of the Company ceases to serve in such office; or (ii) Any resignation by the Executive for Good Reason within eighteen (18) months after [same two prongs]." The 2014 CEO form (Sec. 21(t)) has no CEO prong. |
+| B, C, D | Does Saint-Pierre's Jan 28, 2025 form carry it? | Yes, verbatim, at Sec. 21(w) (https://www.sec.gov/Archives/edgar/data/833640/000083364025000120/powi-20250331xex10d8.htm); so does V. Balakrishnan's (Ex. 10.7). Their Effective Date is Jan 28, 2025; the CEO then serving (Balakrishnan) ceased to serve July 20/21, 2025 (8-K Jul 17, 2025). Both forms also carry the New Executive one-year wait (cover Sec. 1; Sec. 21(k)) and the Senior/New split (Sec. 21(s)). |
+| C ("Could not find") | Which officers received the Jan 28, 2025 amendment | Balakrishnan (10.1), Nayyar (10.2), Bailey (10.3), Barsan (10.4), Gupta (10.5), Walker (10.6), 10-Q filed May 12, 2025 |
+| B §2 (409A) | Cure period in the agreements vs safe-harbor 30 days | All POWI forms: 20 days (legacy 21(i); go-forward 19(f)) |
+| B §4 (AAA fee split for individually negotiated agreements) | What the agreement says on costs | Legacy Sec. 11 overrides the AAA default: Company pays "all costs and expenses of arbitration or litigation, including ... reasonable attorneys fees ... incurred by the Executive." Go-forward EOBAs: no arbitration clause at all |
+| B §2 (§925, §16600) | Counsel-representation language | Every version has an acknowledgment that the Company encouraged the executive to consult personal legal and financial advisers and had adequate time (legacy Sec. 19; go-forward Sec. 17). No separate "represented by counsel" clause |
+| D §3 (survey comparison) | Legacy measurement basis | Legacy cash severance uses Highest Annual Salary (3-year lookback, Sec. 21(j)) and bonus at maximum (Sec. 21(b)); go-forward uses current salary and target. D's "0.5x salary + 0.5x bonus" understates legacy by the maximum-vs-target factor |
+| C, D | Release deadline and payment timing | Legacy Sec. 14 and go-forward Sec. 12: release effective within 60 days of Separation from Service; amounts due earlier are paid on the 60th day (Erba adds "irrevocably effective" and accrual language) |
+| D §1.2 (Verity, Jain) | Whether non-EOBA officers are covered by any form | No EOBA filed for either; proxy table shows "—"; consistent with the documents |
